@@ -2,3 +2,4 @@ pyrogram
 asyncio
 logging
 sqlite3
+TgCrypto

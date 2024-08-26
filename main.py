@@ -1,8 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from pyrogram.errors import UserNotMutualContact, FloodWait, RPCError
-from pyrogram.enums import ChatMemberStatus
-from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton,CallbackQuery
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from asyncio import create_task, sleep
 from db import database
 import logging
