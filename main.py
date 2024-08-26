@@ -20,15 +20,10 @@ API_ID =  os.getenv('api_id')
 API_HASH = os.getenv('API_HASH')
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 
-proxy = {
-    "scheme": "http",  # "socks4", "socks5" and "http" are supported
-    "hostname": "154.94.5.241",
-    "port": 7001,
 
-}
 games = {}
 record = database()
-app = Client(os.getenv('Bot_Name'), api_id=API_ID,api_hash=API_HASH, bot_token=BOT_TOKEN,proxy=proxy)
+app = Client(os.getenv('Bot_Name'), api_id=API_ID,api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 async def game_timeout(chat_id, message_id):
     await sleep(300)  
