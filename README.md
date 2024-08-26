@@ -21,7 +21,7 @@ This is a Telegram bot that allows users to play Tic-Tac-Toe in group chats. The
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/AGhost71/tic-tac-toe.git
-   cd telegram-tic-tac-toe-bot
+   cd tic-tac-toe
    ```
 
 2. **Install dependencies:**
